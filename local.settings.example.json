@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<STORAGE_CONNECTION_STRING>",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "DATA_STORAGE_CONNECTION": "<STORAGE_CONNECTION_STRING>",
+    "SILVER_CONTAINER": "silver",
+    "DOCUMENT_QUEUE": "bronze-to-silver",
+    "CHUNK_SIZE": "1500",
+    "CHUNK_OVERLAP": "200",
+    "DOCUMENT_INTELLIGENCE_ENDPOINT": "https://<resource>.cognitiveservices.azure.com/",
+    "DOCUMENT_INTELLIGENCE_KEY": "<KEY>"
+  }
+}
